@@ -1,0 +1,60 @@
+.title{
+    font-size: 70px;
+    font-family: Arial;
+    color: darkblue;
+}
+.container{
+    margin: 0px;
+    width: 100%;
+}
+
+.first{
+    /*background-color: grey;*/
+    display: flex;
+    justify-content: space-evenly;
+     background-image: url(https://images.pexels.com/photos/1050244/pexels-photo-1050244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(100, 90, 90,0.3);
+    height: 500px;
+    overflow: hidden;
+    
+}
+.header{
+    margin-top: 20px;
+    background-color:rgb(102, 132, 214);
+    height: 100px;
+}
+.child{
+    width: 15%;
+    padding: 10px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:rgba(68, 168, 226,0.8);
+    align-items: center;
+}
+.content{
+    color: white;
+    
+    font-size: 20px;
+    font-family: Segoe UI;
+    align-items: center;
+    transition: 0.4s;
+ 
+}
+.overlay{
+    height: 95vh;
+   color: rgba(212, 17, 17, 0.5);
+   width: 100%;
+   display:flex;
+   justify-content: space-evenly;
+}
+.content:hover{
+    color: black;
+    cursor: pointer;
+   
+}
+.child:hover{
+    background-color: rgba(25, 218, 224,0.5);
+}
